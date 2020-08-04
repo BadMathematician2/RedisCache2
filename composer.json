@@ -15,5 +15,12 @@
         }
     },
 
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\RedisCache\\RedisCacheServiceProvider"
+            ]
+        }
+    }
 }
